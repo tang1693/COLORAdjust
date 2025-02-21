@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20E241" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="TestData" representedClassName="TestData" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="imageBoard" optional="YES" attributeType="Binary"/>
+        <attribute name="intrash" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="patient" optional="YES" attributeType="String"/>
+        <attribute name="reading_cockroach" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="reading_dustmite1" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="reading_dustmite2" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="reading_mouse" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="room" optional="YES" attributeType="String"/>
+        <attribute name="tempature" optional="YES" attributeType="String"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="TestData" positionX="-63" positionY="-18" width="128" height="194"/>
+    </elements>
+</model>

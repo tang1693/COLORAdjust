@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="TestData" representedClassName="TestData" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="identifier" optional="YES" attributeType="String"/>
+        <attribute name="imageboardafter" optional="YES" attributeType="Binary"/>
+        <attribute name="imageboardbefore" optional="YES" attributeType="Binary"/>
+        <attribute name="imageframeafter" optional="YES" attributeType="Binary"/>
+        <attribute name="imageframebefore" optional="YES" attributeType="Binary"/>
+        <attribute name="inprogress" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="intrash" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="patient" optional="YES" attributeType="String"/>
+        <attribute name="reading_formaldehyde" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="ready" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="room" optional="YES" attributeType="String"/>
+        <attribute name="starttime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="tempature" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="TestData" positionX="-63" positionY="-18" width="128" height="239"/>
+    </elements>
+</model>
